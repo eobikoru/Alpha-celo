@@ -1,10 +1,10 @@
 import { getDefaultConfig } from "@rainbow-me/rainbowkit";
-import { kairos } from "viem/chains";
+import { celoAlfajores } from "viem/chains";
 
 const config = getDefaultConfig({
   appName: "Alpha",
-  projectId: "YOUR_PROJECT_ID",
-  chains: [kairos],
+  projectId: "",
+  chains: [celoAlfajores],
   ssr: true, // If your dApp uses server side rendering (SSR)
 });
 
