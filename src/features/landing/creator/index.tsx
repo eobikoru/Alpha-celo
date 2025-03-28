@@ -182,11 +182,9 @@ export default function ProfilePage() {
               <ArrowLeft size={24} />
             </button>
           )}
-          <Image
+          <img
             src={`https://${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/${profileData?.photoHash}`}
             alt="Profile picture"
-            width={56}
-            height={56}
             className="rounded-full"
           />
           <div>
@@ -200,11 +198,10 @@ export default function ProfilePage() {
         {/* Main Profile Section */}
         <div className="space-y-12 w-full">
           <div className="flex justify-center">
-            <Image
+            <img
               src={`https://${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/${profileData?.photoHash}`}
               alt="Large profile picture"
-              width={160}
-              height={100}
+            
               className="rounded-full h-[11rem]"
             />
           </div>
