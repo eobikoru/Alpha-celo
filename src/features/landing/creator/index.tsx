@@ -185,7 +185,7 @@ export default function ProfilePage() {
           <img
             src={`https://${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/${profileData?.photoHash}`}
             alt="Profile picture"
-            className="rounded-full"
+            className="rounded-full w-[160px] h-[160px]"
           />
           <div>
             <h1 className="text-2xl text-white font-semibold">
@@ -202,7 +202,7 @@ export default function ProfilePage() {
               src={`https://${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/${profileData?.photoHash}`}
               alt="Large profile picture"
             
-              className="rounded-full h-[11rem]"
+              className="rounded-full w-[160px] h-[160px]"
             />
           </div>
 

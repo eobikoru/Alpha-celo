@@ -159,12 +159,12 @@ export default function DashboardLayout({ children, links }: DashboardLayoutProp
               {address ? `${address.slice(0, 6)}...${address.slice(-4)}` : "Not connected"}
             </div>
             {profileData?.photoHash ? (
-              <Image
+              <img
                 src={`https://${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/${profileData?.photoHash}`}
                 alt="Profile"
                 width={32}
                 height={32}
-                className="rounded-full object-cover"
+                className="rounded-full object-cover "
               />
             ) : (
               <div className="w-8 h-8 bg-zinc-800 rounded-full flex items-center justify-center">
