@@ -250,7 +250,7 @@ export default function CreatorDashboard() {
             <div className="flex items-end gap-6">
               <div className="relative">
                 <img
-                  src={` https://${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/${photoHash}`}
+                  src={`https://${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/${photoHash}`}
                   alt="Profile"
                   // width={160}
                   // height={160}

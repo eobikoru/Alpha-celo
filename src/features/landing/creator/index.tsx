@@ -87,11 +87,11 @@ export default function ProfilePage() {
       label: "Profile",
       icon: <UserOutlined className="w-5 h-5 text-white" />,
     },
-    {
-      href: "#",
-      label: "Earnings",
-      icon: <DollarCircleOutlined className="w-5 h-5 text-white" />,
-    },
+    // {
+    //   href: "#",
+    //   label: "Earnings",
+    //   icon: <DollarCircleOutlined className="w-5 h-5 text-white" />,
+    // },
   ];
 
   const handleSubmission = async (fileToUpload: File) => {
